@@ -4,7 +4,7 @@ public abstract class AbstractEntity {
     protected int id;
 
     protected AbstractEntity() {
-        
+
     }
 
     protected AbstractEntity(int id) {
