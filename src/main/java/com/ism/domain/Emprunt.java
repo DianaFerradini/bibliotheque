@@ -3,6 +3,8 @@ package com.ism.domain;
 import java.util.Date;
 
 public final class Emprunt extends AbstractEntity{
+// Emprunt est final car aucune classe ne peu hériter de Emprunt
+
     private String nomEmprunteur;
     private Date dateEmprunt;
     private Date dateRetourPrevue;
