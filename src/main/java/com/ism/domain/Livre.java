@@ -42,7 +42,7 @@ public final class Livre extends AbstractEntity {
         this.isbn = isbn;
     }
 
-    public boolean isDisponible() {
+    public boolean getDisponible() {
         return disponible;
     }
 
@@ -54,5 +54,13 @@ public final class Livre extends AbstractEntity {
     public String toString() {
         return "Id : " + id + ", titre : " + titre + ", auteur : " + auteur + ", isbn : " + isbn + ", disponible : "
                 + disponible;
+    }
+
+    public String isDisponible() {
+        if (disponible) {
+            return titre + " est disponible.";
+        } else {
+            return titre + " est emprunté.";
+        }
     }
 }
