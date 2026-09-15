@@ -13,7 +13,7 @@ public final class UserView {
             System.out.println("Pas de livres enregistrés");
         } else {
             for (Livre livre : livres) {
-                livre.toString();
+                System.out.println(livre.toString());
             }
         }
     }
@@ -23,7 +23,7 @@ public final class UserView {
             System.out.println("Pas d'emprunts enregistrés");
         } else {
             for (Emprunt emprunt : emprunts) {
-                emprunt.toString();
+                System.out.println(emprunt.toString());
             }
         }
     }
