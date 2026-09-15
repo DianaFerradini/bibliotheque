@@ -1,7 +1,7 @@
 package com.ism.domain;
 
 public final class Livre extends AbstractEntity {
-// Livre est final car aucune classe ne peu hériter de Livre
+// Livre est final car aucune classe ne peut hériter de Livre
 
     private String titre;
     private String auteur;
